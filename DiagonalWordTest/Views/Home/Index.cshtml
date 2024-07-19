@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form asp-action="DisplayWord" method="post">
+    <div class="input-group mb-3" style="width: 400px;">
+        <input type="text" class="form-control" placeholder="Please enter a word" id="word" name="word" />
+
+        <button class="btn btn-outline-secondary" type="submit">Button</button>
+    </div>
+</form>
